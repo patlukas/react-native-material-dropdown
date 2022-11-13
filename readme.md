@@ -79,7 +79,7 @@ class Example extends Component {
  dropdownOffset    | Dropdown offset                               |   Object | { top: 32, left: 0 }
  dropdownMargins   | Dropdown margins                              |   Object | { min: 8, max: 16 }
  data              | Dropdown item data                            |    Array | []
- value             | Selected value                                |   String | -
+ value             | Selected value                                |String, Array | -
  containerStyle    | Styles for container view                     |   Object | -
  overlayStyle      | Styles for overlay view                       |   Object | -
  pickerStyle       | Styles for item picker view                   |   Object | -
