@@ -1,5 +1,3 @@
-[npm-badge]: https://img.shields.io/npm/v/react-native-material-dropdown.svg?colorB=ff6d00
-[npm-url]: https://npmjs.com/package/react-native-material-dropdown
 [license-badge]: https://img.shields.io/npm/l/react-native-material-dropdown.svg?colorB=448aff
 [license-url]: https://raw.githubusercontent.com/n4kz/react-native-material-dropdown/master/license.txt
 [codeclimate-badge]: https://img.shields.io/codeclimate/maintainability/n4kz/react-native-material-dropdown.svg
@@ -11,7 +9,6 @@
 
 # react-native-material-dropdown
 
-[![npm][npm-badge]][npm-url]
 [![license][license-badge]][license-url]
 [![codeclimate][codeclimate-badge]][codeclimate-url]
 
@@ -32,7 +29,7 @@ Material dropdown with consistent behaviour on iOS and Android
 ## Installation
 
 ```bash
-npm install --save react-native-material-dropdown
+npm i https://github.com/patlukas/react-native-material-dropdown
 ```
 
 ## Usage
@@ -94,7 +91,7 @@ class Example extends Component {
  renderAccessory   | Render text field accessory                   | Function | -
  valueExtractor    | Extract value from item (args: item, index)   | Function | ({ value }) => value
  labelExtractor    | Extract label from item (args: item, index)   | Function | ({ label }) => label
- propsExtractor    | Extract props from item (args: item, index)   | Function | () => null
+ propsExtractor    | Extract props from item (args: item, index)   | Function | () => {}
  onChangeText      | Selection callback (args: value, index, data) | Function | -
 
 Other [TextField][textfield], [TextInput][textinput] and [TouchableWithoutFeedback][touchable] properties will also work
@@ -113,7 +110,7 @@ Other [TextField][textfield], [TextInput][textinput] and [TouchableWithoutFeedba
 ## Example
 
 ```bash
-git clone https://github.com/n4kz/react-native-material-dropdown
+git clone https://github.com/patlukas/react-native-material-dropdown
 cd react-native-material-dropdown/example
 npm install
 npm run ios # or npm run android
@@ -122,5 +119,3 @@ npm run ios # or npm run android
 ## Copyright and License
 
 BSD License
-
-Copyright 2017-2018 Alexander Nazarov. All rights reserved.

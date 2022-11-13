@@ -1,8 +1,8 @@
 {
   "name": "react-native-material-dropdown",
-  "version": "0.11.1",
+  "version": "0.12.0",
   "license": "BSD-3-Clause",
-  "author": "Alexander Nazarov <n4kz@n4kz.com>",
+  "author": "Alexander Nazarov <n4kz@n4kz.com>, PatLukas <https://github.com/patlukas/>",
   "description": "Material dropdown",
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
+    "url": "git://github.com/patlukas/react-native-material-dropdown.git"
   },
   "peerDependencies": {
     "react": "*",
@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "prop-types": "^15.5.9",
-    "react-native-material-buttons": "^0.6.0",
-    "react-native-material-ripple": "^0.8.0",
-    "react-native-material-textfield": "^0.16.1"
+    "react-native-material-buttons": "github:patlukas/react-native-material-buttons",
+    "react-native-material-ripple": "github:patlukas/react-native-material-ripple",
+    "react-native-material-textfield": "github:patlukas/react-native-material-textfield"
   }
 }
